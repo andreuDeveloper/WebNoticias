@@ -90,6 +90,11 @@ a:hover {
     float: right;
 }
 
+.publ {
+    float: left;
+    width: 50%;
+}
+
 .not {
     background: lawngreen;
     box-shadow: 0px 0px 6vw #888888;
