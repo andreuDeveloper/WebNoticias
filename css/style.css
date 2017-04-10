@@ -84,16 +84,12 @@ a:hover {
 }
 
 #publicidad {
-    background: red;
+    background:darkorange;
     opacity: 0.6;
     width: 300px;
     float: right;
 }
 
-.publ {
-    float: left;
-    width: 50%;
-}
 
 .not {
     background: lawngreen;
@@ -163,10 +159,14 @@ VERTICAL
     }
 
     #publicidad {
-        background: red;
         opacity: 0.6;
         height: 90px;
         width: 100%;
         position: static;
+    }
+
+    .publ {
+        float: left;
+        width: 50%;
     }
 }
