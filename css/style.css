@@ -90,10 +90,6 @@ a:hover {
     float: right;
 }
 
-.publ {
-    float: left;
-    width: 50%;
-}
 
 .not {
     background: lawngreen;
@@ -168,5 +164,10 @@ VERTICAL
         height: 90px;
         width: 100%;
         position: static;
+    }
+
+    .publ {
+        float: left;
+        width: 50%;
     }
 }
