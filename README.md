@@ -14,7 +14,11 @@ El objetivo final se basa en realizar una aplicación web de noticias que , al h
 ¿Cómo se ha hecho?
 ------------------
 He empezado realizando una maquetación a papel de lo que sería más o menos la interfaz gráfica de la web. Siguiendo las
-especificaciones que veréis a continuación:
+especificaciones que veréis a continuación.
+
+Imágenes de la maquetación
+--------------------------
+![Image of maq 1](https://octodex.github.com/images/yaktocat.png)
 
 Especificaciones
 ----------------
