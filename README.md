@@ -18,7 +18,8 @@ especificaciones que veréis a continuación.
 
 Imágenes de la maquetación
 --------------------------
-![Image of maq 1](https://octodex.github.com/images/yaktocat.png)
+![Image of maq Hor](img/maquetacion/maqH.jpeg)
+![Image of maq Ver](img/maquetacion/maqV.jpeg)
 
 Especificaciones
 ----------------
