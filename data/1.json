@@ -1,0 +1,18 @@
+{
+    "Noticias": [
+        {
+            "Titulo":"Titulo Noticia 1",
+            "Fecha":"21/03/16",
+            "Imagen":"img/imagen.img",
+            "Descripcion":"Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto de un sitio mientras que mira su diseño",
+            "Link":"adfhajkdf.html"
+        },
+        {
+            "Titulo":"Titulo Noticia 2",
+            "Fecha":"21/03/16",
+            "Imagen":"img/imagen.img",
+            "Descripcion":"Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto de un sitio mientras que mira su diseño",
+            "Link":"adfhajkdf.html"
+        }
+    ]
+}

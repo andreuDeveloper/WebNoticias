@@ -1,0 +1,151 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgba(1,1,1,1);
+    background: -moz-linear-gradient(left, rgba(1,1,1,1) 0%, rgba(3,4,8,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(1,1,1,1)), color-stop(100%, rgba(3,4,8,1)));
+    background: -webkit-linear-gradient(left, rgba(1,1,1,1) 0%, rgba(3,4,8,1) 100%);
+    background: -o-linear-gradient(left, rgba(1,1,1,1) 0%, rgba(3,4,8,1) 100%);
+    background: -ms-linear-gradient(left, rgba(1,1,1,1) 0%, rgba(3,4,8,1) 100%);
+    background: linear-gradient(to right, rgba(1,1,1,1) 0%, rgba(3,4,8,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#010101', endColorstr='#030408', GradientType=1 );
+}
+
+#jumb {
+    background: url("../img/jumb.jpg") 50% 63% no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+h1 {
+    font-size:  4vw !important;
+    color: white !important;
+}
+
+#myMenu {
+    width: 100%;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.listaNormal {
+    margin-left: 2.5%;
+}
+
+.listaNormal li {
+    list-style-type: none;
+    display: inline-block;
+    width: 24%;
+}
+
+.dropdown-menu {
+    width: 100%;
+}
+.dropdown-menu li {
+    display: block;
+    width: 100%;
+}
+
+
+
+.listaNormal button{
+    width: 100%;
+    font-size: 1.5vw;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.container {
+    background: grey;
+    margin: 0;
+    position: relative;
+    width: 100%;
+}
+
+#mainC {
+    width: 100%;
+}
+
+.not {
+    background: red;
+    width: calc(90% - 300px);
+    margin-left: 5%;
+    padding: 4%;
+}
+
+img {
+    width: 60%;
+    min-width: 300px;
+    float: left;
+    margin-right: 4%;
+    margin-bottom: 4%;
+}
+
+p {
+    text-align: justify;
+}
+
+.youtube {
+    width: 100%;
+    height: 300px;
+}
+
+
+#publicidad {
+    background:darkorange;
+    opacity: 0.6;
+    width: 300px;
+    float: right;
+}
+
+
+.footer {
+    float: left;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background: blueviolet;
+    text-align: center;
+}
+
+.footer li {
+    display: inline-block;
+    list-style-type: none;
+    transform: scale(0.7);
+    opacity: 0.6;
+    padding: 1%;
+}
+
+.footer li:hover{
+    transform: scale(0.9);
+    opacity: 1;
+}
+
+
+
+/************************************************
+VERTICAL
+*************************************************/
+@media screen and (max-width: 750px){
+    #publicidad {
+        opacity: 0.6;
+        height: 90px;
+        width: 100%;
+        position: static;
+    }
+
+    .not {
+        width: 90%;
+        margin: auto;
+    }
+}
