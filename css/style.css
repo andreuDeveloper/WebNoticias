@@ -70,6 +70,10 @@ a:hover {
     color:white;
 }
 
+.glyphicon-home {
+    transform: scale(1.5);
+}
+
 .container {
     background: grey;
     margin: 0;
