@@ -1,13 +1,12 @@
 var fichLoaded = 0;
-var fichName = ["1.json", "2.json", "3.json"];
+var fichName = ["1.json", "2.json", "3.json", "4.json"];
 
 /*Al cargar la pagina*/
 $(document).ready(function () {
 
     //Para evitar problemas con cargas automaticas del Json, al cargar la
     //web se hará un scroll hacia arriba directamente
-    window.scrollTo(0, 0);
-
+    $(window).scrollTop($(document).height());
     $("h1").fadeIn(1500);
 
     cargarEfectos();
@@ -27,7 +26,7 @@ $(document).ready(function () {
 });
 
 
-function cargarEfectos(){
+function cargarEfectos() {
     $(".not").mouseenter(function () {
         $("img", this).fadeTo(0.5, 0.2);
         $(".desc", this).fadeIn(200);
@@ -35,8 +34,19 @@ function cargarEfectos(){
 
     $(".not").mouseleave(function () {
         $("img", this).fadeTo(0.5, 1);
-        $(".desc", this).fadeOut(200)
+        $(".desc", this).fadeOut(200);
     });
+
+    /*
+        $(".not .desc").mouseenter(function () {
+            $("img", this.not).fadeTo(0.5, 0.2);
+        });
+    
+        $(".not .desc").mouseleave(function () {
+            $("img", this.not).fadeTo(0.5, 1);
+        });
+    */
+
 }
 
 
@@ -79,7 +89,7 @@ function crearNoticia(json, nombreFichero) {
         var n = document.createElement("div");
         n.className = "not img-rounded";
         var img = document.createElement("img");
-        img.src = "img/dropshot.jpg";
+        img.src = json[i].img;
         img.alt = "image New";
         var des = document.createElement("p");
         des.className = "desc";

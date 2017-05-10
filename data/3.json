@@ -1,14 +1,14 @@
 [
     {
-        "title": "Titulo Noticia 1",
-        "date": "21/03/16",
-        "img": "img/imagen.img",
-        "desc": "Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto de un sitio mientras que mira su diseño"
+        "title": "Tournament in Mallorca",
+        "date": "Mon May 15 2017",
+        "img": "img/not/tournament.jpg",
+        "desc": "A new tournament will be the next Monday 15 at the event of Mallorca Games. There will be matches of 1vs1, 2vs2, or 3vs3. Be ready for that!"
     },
     {
         "title": "Titulo Noticia 1",
-        "date": "21/03/16",
-        "img": "img/imagen.img",
+        "date": "Mon May 15 2017",
+        "img": "img/not/tournament.jpg",
         "desc": "Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto de un sitio mientras que mira su diseño"
     }
 ]
