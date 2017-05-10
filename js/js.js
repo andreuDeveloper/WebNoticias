@@ -59,9 +59,7 @@ function cargarFichero(nombreFichero) {
 }
 
 function crearNoticia(json, nombreFichero) {
-
     var m = document.getElementById("notCargar");
-
     var row = document.createElement("div");
     row.id = "row" + nombreFichero;
     row.className = "row";
@@ -74,10 +72,10 @@ function crearNoticia(json, nombreFichero) {
         a.setAttribute('href', "#");
         var h3 = document.createElement("h3");
         h3.className = "notTitle";
-        h3.textContent = "TITLE NEW HERE";
+        h3.textContent = json[i].title;
         var h5 = document.createElement("h5");
         h5.className = "date";
-        h5.textContent = "12/12/12";
+        h5.textContent = json[i].date;
         var n = document.createElement("div");
         n.className = "not img-rounded";
         var img = document.createElement("img");
@@ -85,7 +83,7 @@ function crearNoticia(json, nombreFichero) {
         img.alt = "image New";
         var des = document.createElement("p");
         des.className = "desc";
-        des.textContent = "This is the fucking and awesome description of the fucking new :D";
+        des.textContent = json[i].desc;
 
         n.appendChild(img);
         n.appendChild(des);
