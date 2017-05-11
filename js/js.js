@@ -1,51 +1,60 @@
 var fichLoaded = 0;
-var fichName = ["1.json", "2.json", "3.json", "4.json"];
+var fichName = ["1.json", "2.json", "3.json"];
 
 /*Al cargar la pagina*/
-$(document).ready(function () {
+$(document).ready(function() {
 
     //Para evitar problemas con cargas automaticas del Json, al cargar la
     //web se hará un scroll hacia arriba directamente
-    $(window).scrollTop($(document).height());
     $("h1").fadeIn(1500);
+    $('html, body').animate({ scrollTop: 0 }, 400);
 
     cargarEfectos();
+    $(window).resize(function() {
+        cargarEfectos();
+    });
 
 
     //BOTON DE CARGAR NOTICIAS
-    $("#btnLoad").click(function () {
+    $("#btnLoad").click(function() {
         cargarNoticias();
     });
 
-    $(window).scroll(function () {
+    $(window).scroll(function() {
         if ($(window).scrollTop() + $(window).height() == $(document).height()) {
             cargarNoticias();
         }
     });
-
 });
 
 
+//DEPENDENDO DEL TAMAÑO DE LA PANTALLA HABRÁ UNOS EFECTOS U OTROS
 function cargarEfectos() {
-    $(".not").mouseenter(function () {
-        $("img", this).fadeTo(0.5, 0.2);
-        $(".desc", this).fadeIn(200);
-    });
+    if ($(window).width() <= 750) {
+        $(".not .desc").show();
 
-    $(".not").mouseleave(function () {
-        $("img", this).fadeTo(0.5, 1);
-        $(".desc", this).fadeOut(200);
-    });
+        $(".not").mouseenter(function() {
+            $("img", this).fadeIn(1);
+            $(".desc", this).fadeIn(1);
+        });
 
-    /*
-        $(".not .desc").mouseenter(function () {
-            $("img", this.not).fadeTo(0.5, 0.2);
+        $(".not").mouseleave(function() {
+            $("img", this).fadeIn(1);
+            $(".desc", this).fadeIn(1);
         });
-    
-        $(".not .desc").mouseleave(function () {
-            $("img", this.not).fadeTo(0.5, 1);
+    }
+    else {
+        $(".not .desc").hide();
+        $(".not").mouseenter(function() {
+            $("img", this).fadeTo(0.5, 0.2);
+            $(".desc", this).fadeIn(200);
         });
-    */
+
+        $(".not").mouseleave(function() {
+            $("img", this).fadeTo(0.5, 1);
+            $(".desc", this).fadeOut(200)
+        });
+    }
 
 }
 
@@ -62,7 +71,7 @@ function cargarFichero(nombreFichero) {
     var path = "https://raw.githubusercontent.com/SOSandreu1095/WebNoticias/master/data/" + nombreFichero;
 
     //cargar Noticias
-    $.getJSON(path, function (jsonObject) {
+    $.getJSON(path, function(jsonObject) {
         crearNoticia(jsonObject, nombreFichero);
     });
     return true;
