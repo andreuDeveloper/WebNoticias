@@ -132,6 +132,15 @@ a:hover {
     float: right;
 }
 
+#pubV {
+    display: block;
+    width: 100%;
+}
+
+#pubH{
+    display: none;
+}
+
 
 .not {
     /*background: lawngreen;*/
@@ -245,7 +254,6 @@ VERTICAL
     }
 
     #publicidad {
-        opacity: 0.6;
         height: 90px;
         width: 100%;
         position: static;
@@ -256,9 +264,12 @@ VERTICAL
         margin: auto;
     }
 
-    .publ {
-        float: left;
-        width: 50%;
+    .notTitle{
+        font-size: 4.2vw;
+    }
+
+    .date {
+        font-size: 2.4vw;
     }
 
     .not .desc {
@@ -273,5 +284,14 @@ VERTICAL
 
     #fbTime {
         display: none;
+    }
+
+    #pubV {
+        display: none;
+    }
+
+    #pubH{
+        display: block;
+        margin: auto;
     }
 }
