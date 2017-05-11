@@ -115,6 +115,7 @@ a:hover {
 
 .row {
     margin: 0;
+    margin-bottom: 2.5vw;
 }
 
 #noticias {
@@ -127,7 +128,6 @@ a:hover {
 
 #publicidad {
     background:darkorange;
-    opacity: 0.6;
     width: 300px;
     float: right;
 }
@@ -144,17 +144,16 @@ a:hover {
     position: relative;
 }
 
-.not .notTitle {
+.notTitle {
     padding: 0;
     margin: 0;
-    position: absolute;
     top: 0;
-    width: 100%;
-    text-align: center;
-    padding: 1em;
-    font-size: 2vw;
+    font-size: 1.2vw;
     color: white;
-    background: #010110;
+}
+
+.date {
+    font-size: 1vw;
 }
 
 .not img {
@@ -219,6 +218,9 @@ a:hover {
     opacity: 1;
 }
 
+#fbTime {
+    opacity: 1 !important;
+}
 
 
 
@@ -267,5 +269,9 @@ VERTICAL
 
     .not img:hover {
         transform: none;
+    }
+
+    #fbTime {
+        display: none;
     }
 }
