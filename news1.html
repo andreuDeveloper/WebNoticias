@@ -4,19 +4,32 @@
 <head>
     <title>Rocket League News</title>
     <meta charset="utf-8">
-    <meta name="description" content=""/>
+    <meta name="description" content="Infórmate sobre todas las novedades del Rocket League, competitivo, nuevos parches y mucho más"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="icon" href="img/ico.png" type="image/x-icon" />
+    <link rel="icon" href="img/icons/ico.png" type="image/x-icon" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/styleNot.css">
+    <link href="https://fonts.googleapis.com/css?family=Aldrich" rel="stylesheet">
 </head>
 
 <body>
+
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v2.9";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
     <div id="jumb" class="jumbotron text-center">
         <h1>ROCKET LEAGUE NEWS</h1>
     </div>
+
     <nav class="navbar navbar-inverse">
         <div class="container-fluid">
             <div class="navbar-header">
@@ -25,7 +38,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-                <a class="navbar-brand active" href="index.html"><span class="glyphicon glyphicon-home"></span> HOME</a>
+                <a class="navbar-brand active" href="index.html"><span class="glyphicon glyphicon-home"></span></a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">
@@ -35,37 +48,63 @@
                     <li class="dropdown">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#">Patches<span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">Patch 6.15</a></li>
-                            <li><a href="#">Patch 6.14</a></li>
-                            <li><a href="#">Patch 6.13</a></li>
+                            <li><a href="#">Patch 1.34</a></li>
+                            <li><a href="#">Patch 1.33</a></li>
+                            <li><a href="#">Patch 1.32</a></li>
+                            <li><a href="#">Patch 1.31</a></li>
+                            <li><a href="#">Patch 1.30</a></li>
                         </ul>
                     </li>
                 </ul>
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-                    <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-                </ul>
+                <form class="navbar-form navbar-right" id="search">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                        <div class="input-group-btn">
+                            <button class="btn btn-default" type="submit">
+            <i class="glyphicon glyphicon-search"></i>
+          </button>
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
     </nav>
 
     <div id="mainC">
         <div id="publicidad">
-            <div class="publ">PUBLICIDAD 1</div>
-            <div class="publ">PUBLICIDAD 2</div>
+            <img id="pubV" src="img/ads/mc.jpg" alt="pub ver img">
+            <img id="pubH" src="img/ads/boatH.png" alt="pub hor img">
+            <iframe id="fbTime" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FRocketLeague%2F&tabs=timeline&width=300&height=800&small_header=false&adapt_container_width=false&hide_cover=false&show_facepile=false&appId"
+                width="300" height="800" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
         </div>
-        <div class="not">
-            <h3 class="title">Noticia Dropshot</h3>
-            <h5 class="date">27/02/17</h5>
+        <div id="noticias">
+            <h3 class="title">COMMUNITY TRAININGS</h3>
+            <h5 class="date">Thu Apr 13 2017</h5>
             <div>
-                 <img src="img/dropshot.jpg" alt="dropshotIMG">
-                 <p>Another FREE mode is coming to Rocket League later this month!</p>
-                 <p>Dropshot is a brand new take on Rocket League gameplay as we introduce dynamic breakable floors and an electrified ball, all within the confines of a new hexagonal Arena, 'Core 707'. Instead of pushing the ball into your opponent’s goal, your objective is to destroy panels on the opposing team’s floor, and score goals through those gaps.</p>
-                 <p>Our new game mode is all about Damage! Along with our usual stats like Goals, Assists, and Saves, Dropshot introduces Damage as a statistic -- the more damage you do, the more floor panels break, and the easier it is to score a goal! Each panel can be hit by a ball twice -- the first hit activates the panel, while the second breaks the panel, creating a new scoring opportunity.</p>
-                 <p>The new ball has three different phases, each more powerful than the last, that determine how much damage is done when the ball smashes into the floor panels. The second and third phases are activated by multiple Battle-Car hits, so the longer the ball stays off the ground, the more powerful it becomes. While the first phase of the new ball only damages one tile upon impact, the second and third phases can damage up to seven and 19 panels, respectively. Check out the Dropshot trailer below!</p>
-                 
-                 <iframe class="youtube" src="https://www.youtube.com/embed/MdBvId4DyIg" frameborder="0" allowfullscreen></iframe>
-                 <p>Along with Dropshot releasing on March 22, we have a host of other changes coming to Rocket League, including new achievements/trophies, painted Bodies and Rocket Trails, an Esports content button, the end of Competitive Season 3, a new Skill Tier hierarchy, and more!</p>
+                <img src="img/not/training.png" alt="dropshotIMG">
+                <p>Since we published Rocket League’s first Community Spotlight back in February, we’ve added a new Featured
+                    tab in the Custom Training window as part of the Dropshot Update. Our first Spotlight focused on "Obstacle
+                    Course 1," which saw a 30% increase in subscriptions after our post. Now we’re beginning to take a more
+                    tactical approach to how we introduce players to community-made content.</p>
+
+                <p>We want to try our best to cater to players of all skill levels, as well as provide Custom Training sequences
+                    and Steam Workshop maps that help teach our players a broad range of skills and mechanics.</p>
+                <p>
+                    For today's Community Spotlight, we have introduced a new list of Featured Custom Training sequences that will help teach
+                    you skills like aerial dribbling, clearing passes off the backboard, and saving shots coming from behind.</p>
+                <p>If you’re looking to share or explore more community-made Custom Training codes, head over to the RLCustomTraining
+                    subreddit, and RLG’s Training Browser. Both are excellent resources for training codes, and you can share
+                    or explore up-and-coming levels as well.</p>
+                <p>Like always, if you train a lot, you will be able to improve your skills, we want to show a montage of a
+                    user of this community called SOSandreu1095, also known as [BRAINDEAD]SOS, he said to us that he is trying
+                    to practice every day with our custom maps, and he is feeling better day by day, enjoy that!</p>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="youtube embed-responsive-item" src="https://www.youtube.com/embed/K86TYRRw1co" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <p>If Custom Training isn’t your style, then Steam Workshop hosts a handful of challenging scenarios. One such
+                    map is "Thanrek’s Aerial Training," which will help fine-tune your aerial abilities as you maneuver your
+                    rocket powered car through obstacles.</p>
+                <a href="https://www.rocketleague.com/news/community-spotlight-april-2017/">Official site</a>
             </div>
         </div>
     </div>
@@ -75,21 +114,27 @@
     <div class="footer">
         <ul>
             <li id="fb">
-                <a href="#"><img src="img/facebook.png" alt="fb logo" /></a>
+                <a href="#"><img src="img/icons/facebook.png" alt="fb logo" /></a>
             </li>
             <li id="tw">
-                <a href="#"><img src="img/twitter.png" alt="tw logo" /></a>
+                <a href="#"><img src="img/icons/twitter.png" alt="tw logo" /></a>
             </li>
             <li id="yb">
-                <a href="#"><img src="img/youtube.png" alt="yb logo" /></a>
+                <a href="#"><img src="img/icons/youtube.png" alt="yb logo" /></a>
             </li>
             <li id="gg">
-                <a href="#"><img src="img/google.png" alt="gg logo" /></a>
+                <a href="#"><img src="img/icons/google.png" alt="gg logo" /></a>
             </li>
 
             <div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com"
                     title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"
                     title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+
+
         </ul>
     </div>
+
+
+
+
 </body>

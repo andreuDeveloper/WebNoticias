@@ -1,6 +1,7 @@
 body, html {
     margin: 0;
     padding: 0;
+    height: 100%;
 }
 
 body {
@@ -12,6 +13,8 @@ body {
     background: -ms-linear-gradient(left, rgba(1,1,1,1) 0%, rgba(3,4,8,1) 100%);
     background: linear-gradient(to right, rgba(1,1,1,1) 0%, rgba(3,4,8,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#010101', endColorstr='#030408', GradientType=1 );
+
+    font-family: 'Aldrich', sans-serif;
 }
 
 #jumb {
@@ -21,12 +24,10 @@ body {
 }
 
 h1 {
-    font-size:  4vw !important;
+    font-size:  6vw !important;
+    display: block;
     color: white !important;
-}
-
-#myMenu {
-    width: 100%;
+    text-shadow: rgba(255,255,255,0.5) 0px 3px 3px;
 }
 
 ul {
@@ -64,9 +65,21 @@ a {
     color: white;
 }
 
+a:hover {
+    text-decoration: none;
+    color:white;
+}
+
+.glyphicon-home {
+    transform: scale(1.5);
+}
+
+.navbar {
+    margin-bottom: 20px;
+    font-size: 1em;
+}
 
 .container {
-    background: grey;
     margin: 0;
     position: relative;
     width: 100%;
@@ -76,38 +89,47 @@ a {
     width: 100%;
 }
 
-.not {
+
+#noticias {
+    /*background: blue;*/
+    float: left;
+    width: calc(100% - 300px - 20px);
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0;
+    padding-top: 0;
+}
+
+#publicidad {
+    width: 300px;
+    float: right;
+    margin-right: 20px;
+}
+
+#pubV {
+    display: block;
+    width: 100%;
+}
+
+#pubH{
+    display: none;
+}
+
+#noticias {
+    width: calc(95% - 300px - 20px);
+    position: relative;
+    margin-left: 2.5%;
     background: red;
-    width: calc(90% - 300px);
-    margin-left: 5%;
-    padding: 4%;
+}
+
+#noticias div {
+    position: relative;
 }
 
 img {
-    width: 60%;
-    min-width: 300px;
     float: left;
-    margin-right: 4%;
-    margin-bottom: 4%;
-}
-
-p {
-    text-align: justify;
-}
-
-.youtube {
     width: 100%;
-    height: 300px;
 }
-
-
-#publicidad {
-    background:darkorange;
-    opacity: 0.6;
-    width: 300px;
-    float: right;
-}
-
 
 .footer {
     float: left;
@@ -131,21 +153,45 @@ p {
     opacity: 1;
 }
 
+#fbTime {
+    opacity: 1 !important;
+}
+
+
+
+
+
+
+
+
 
 
 /************************************************
 VERTICAL
 *************************************************/
 @media screen and (max-width: 750px){
+
+    #noticias {
+        position: static;
+        width: 100%;
+    }
+
     #publicidad {
-        opacity: 0.6;
         height: 90px;
         width: 100%;
         position: static;
     }
 
-    .not {
-        width: 90%;
+    #fbTime {
+        display: none;
+    }
+
+    #pubV {
+        display: none;
+    }
+
+    #pubH{
+        display: block;
         margin: auto;
     }
 }

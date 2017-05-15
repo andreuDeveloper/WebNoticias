@@ -74,6 +74,10 @@ a:hover {
     transform: scale(1.5);
 }
 
+#mybar {
+    z-index: 30;
+}
+
 .navbar {
     margin-bottom: 20px;
     font-size: 1em;
@@ -123,7 +127,6 @@ a:hover {
 }
 
 #publicidad {
-    background:darkorange;
     width: 300px;
     float: right;
     margin-right: 20px;
@@ -225,6 +228,7 @@ a:hover {
 }
 
 #fbTime {
+    margin-top: 20px;
     opacity: 1 !important;
 }
 
@@ -241,9 +245,6 @@ a:hover {
 VERTICAL
 *************************************************/
 @media screen and (max-width: 750px){
-    #jumb {
-      /* background: red;*/
-    }
 
     #noticias {
         position: static;
