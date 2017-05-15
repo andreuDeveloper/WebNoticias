@@ -13,6 +13,8 @@ body {
     background: -ms-linear-gradient(left, rgba(1,1,1,1) 0%, rgba(3,4,8,1) 100%);
     background: linear-gradient(to right, rgba(1,1,1,1) 0%, rgba(3,4,8,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#010101', endColorstr='#030408', GradientType=1 );
+
+    font-family: 'Aldrich', sans-serif;
 }
 
 #jumb {
@@ -22,13 +24,10 @@ body {
 }
 
 h1 {
-    font-size:  4vw !important;
-    color: white !important;
+    font-size:  6vw !important;
     display: none;
-}
-
-#myMenu {
-    width: 100%;
+    color: white !important;
+    text-shadow: rgba(255,255,255,0.5) 0px 3px 3px;
 }
 
 ul {
@@ -75,8 +74,12 @@ a:hover {
     transform: scale(1.5);
 }
 
+.navbar {
+    margin-bottom: 20px;
+    font-size: 1em;
+}
+
 .container {
-    background: grey;
     margin: 0;
     position: relative;
     width: 100%;
@@ -87,27 +90,18 @@ a:hover {
 }
 
 #notSlider {
-    margin-top: 2.5%;
     position: relative;
 }
 
 #myCarousel {
     position: relative;
-    margin-bottom: 5%;
-}
-
-#myCarousel h3{
-    position: absolute;
-    z-index: 20 !important;
-    color: white;
-    top: 0;
-    width: 100%;
-    text-align: center;
+    margin: 0;
+    margin-bottom: 40px;
 }
 
 #notSlider img{ 
     border: solid 2px white;
-    border-radius: 2vw; 
+    border-radius: 2vw;
 }
 .carousel-control{
     border-radius: 2vw;
@@ -115,21 +109,24 @@ a:hover {
 
 .row {
     margin: 0;
-    margin-bottom: 2.5vw;
+    margin-top: 20px;
 }
 
 #noticias {
     /*background: blue;*/
     float: left;
-    width: calc(100% - 300px);
-    padding-left: 2.5%;
-    padding-right: 2.5%;
+    width: calc(100% - 300px - 20px);
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0;
+    padding-top: 0;
 }
 
 #publicidad {
     background:darkorange;
     width: 300px;
     float: right;
+    margin-right: 20px;
 }
 
 #pubV {
@@ -157,7 +154,7 @@ a:hover {
     padding: 0;
     margin: 0;
     top: 0;
-    font-size: 1.2vw;
+    font-size: 1.27vw;
     color: white;
 }
 
@@ -191,8 +188,8 @@ a:hover {
 }
 
 #btnLoad {
-    width: calc(95% - 300px);
-    margin-left: 2.5%;
+    width: calc(100% - 2em);
+    margin: auto;
 }
 
 #arrow1{

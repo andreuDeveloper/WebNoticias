@@ -30,29 +30,29 @@ $(document).ready(function() {
 
 //DEPENDENDO DEL TAMAÑO DE LA PANTALLA HABRÁ UNOS EFECTOS U OTROS
 function cargarEfectos() {
-    if ($(window).width() <= 750) {
-        $(".not .desc").show();
+    if ($(window).width() < 750) {
+        $(".not .desc").stop(true, true).show();
 
         $(".not").mouseenter(function() {
-            $("img", this).fadeIn(1);
-            $(".desc", this).fadeIn(1);
+            $("img", this).stop(true, true).fadeIn(1);
+            $(".desc", this).stop(true, true).fadeIn(1);
         });
 
         $(".not").mouseleave(function() {
-            $("img", this).fadeIn(1);
-            $(".desc", this).fadeIn(1);
+            $("img", this).stop(true, true).fadeIn(1);
+            $(".desc", this).stop(true, true).fadeIn(1);
         });
     }
     else {
-        $(".not .desc").hide();
+        $(".not .desc").stop(true, true).hide();
         $(".not").mouseenter(function() {
-            $("img", this).fadeTo(0.5, 0.2);
-            $(".desc", this).fadeIn(200);
+            $("img", this).stop(true, true).fadeTo(0.5, 0.2);
+            $(".desc", this).stop(true, true).fadeIn(200);
         });
 
         $(".not").mouseleave(function() {
-            $("img", this).fadeTo(0.5, 1);
-            $(".desc", this).fadeOut(200)
+            $("img", this).stop(true, true).fadeTo(0.5, 1);
+            $(".desc", this).stop(true, true).fadeOut(200)
         });
     }
 
