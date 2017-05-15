@@ -74,19 +74,28 @@ a:hover {
     transform: scale(1.5);
 }
 
+
 #mybar {
+    margin-bottom: 20px;
+    font-size: 1em;
     z-index: 30;
 }
 
-.navbar {
-    margin-bottom: 20px;
-    font-size: 1em;
+#mybar a:hover{
+    color: greenyellow !important;
 }
 
-.container {
-    margin: 0;
-    position: relative;
-    width: 100%;
+.dropdown-menu {
+    background: #222222 !important;
+}
+
+.dropdown-menu li a:hover {
+    background: #4F4F4F !important;
+}
+
+.dr {
+    line-height: 200% !important;
+    color: white !important;
 }
 
 #mainC {
@@ -95,6 +104,7 @@ a:hover {
 
 #notSlider {
     position: relative;
+    width: 100%;
 }
 
 #titleCars {
@@ -107,21 +117,24 @@ a:hover {
 
 #myCarousel {
     position: relative;
+    width: 100%;
     margin: 0;
     margin-bottom: 40px;
 }
 
 #notSlider img{ 
+    width: 100% !important;
     border: solid 2px white;
     border-radius: 2vw;
 }
+
 .carousel-control{
     border-radius: 2vw;
 }
 
 .row {
     margin: 0;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 #noticias {
@@ -161,16 +174,28 @@ a:hover {
     position: relative;
 }
 
+.not:hover {
+    /*background: lawngreen;*/
+    box-shadow: 0px 0px 6vw #888888;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 100%;
+    border: solid 2px greenyellow;
+    overflow: hidden;
+    position: relative;
+}
+
 .notTitle {
     padding: 0;
     margin: 0;
     top: 0;
     font-size: 1.27vw;
-    color: white;
+    color: greenyellow;
 }
 
 .date {
     font-size: 1vw;
+    color: white;
 }
 
 .not img {
@@ -268,7 +293,17 @@ VERTICAL
         height: 90px;
         width: 100%;
         position: static;
+        margin:0;
+        margin-bottom: 20px;
     }
+    
+    .row {
+        margin: 0;
+    }
+
+    .col {
+        margin-bottom: 50px;
+    } 
 
     #btnLoad {
         width: 95%;
@@ -284,10 +319,12 @@ VERTICAL
     }
 
     .not .desc {
-        font-size: 1em;
+        font-size: 3vw;
         position: relative;
         text-align: justify;
         display: block;
+        background: #222222;
+        border-top: solid 1.5px greenyellow;
     }
 
     .not img:hover {

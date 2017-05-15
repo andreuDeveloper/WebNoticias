@@ -87,6 +87,19 @@ function cargarEfectos() {
         });
     }
 
+
+    //las imagenes de publicidad movil
+     if ($(window).width() > 595) {
+        $("#pubH").attr("src", "img/ads/1m.png");
+    } else if ($(window).width() > 466) {
+        $("#pubH").attr("src", "img/ads/2m.png");
+    } else if ($(window).width() > 363) {
+        $("#pubH").attr("src", "img/ads/3m.png");
+    } else {
+        $("#pubH").attr("src", "img/ads/4m.png");
+    }
+
+
 }
 
 
