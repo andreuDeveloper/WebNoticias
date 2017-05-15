@@ -97,6 +97,14 @@ a:hover {
     position: relative;
 }
 
+#titleCars {
+    color: white; 
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+    font-size: 3vw;
+}
+
 #myCarousel {
     position: relative;
     margin: 0;
@@ -229,6 +237,7 @@ a:hover {
 
 #fbTime {
     margin-top: 20px;
+    border: 0px;
     opacity: 1 !important;
 }
 
@@ -245,6 +254,10 @@ a:hover {
 VERTICAL
 *************************************************/
 @media screen and (max-width: 750px){
+
+    #titleCars {
+        font-size: 5vw;
+    }
 
     #noticias {
         position: static;
@@ -273,6 +286,7 @@ VERTICAL
     .not .desc {
         font-size: 1em;
         position: relative;
+        text-align: justify;
         display: block;
     }
 

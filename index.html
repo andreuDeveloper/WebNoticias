@@ -14,6 +14,7 @@
     <script src="js/js.js"></script>
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Aldrich" rel="stylesheet">
+    <link rel="alternate" type="application/rss+xml" title="Rocket League News" href="rss/rss.xml">
 </head>
 
 <body>
@@ -73,13 +74,14 @@
 
     <div id="mainC">
         <div id="publicidad">
-            <img id="pubV" src="img/ads/mc.jpg" alt="pub ver img">
-            <img id="pubH" src="img/ads/boatH.png" alt="pub hor img">
+            <a href="publ.html"><img id="pubV" src="img/ads/1h.jpg" alt="pub ver img"></a>
+            <a href="publ.html"><img id="pubH" src="img/ads/boatH.png" alt="pub hor img"></a>
             <iframe id="fbTime" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FRocketLeague%2F&tabs=timeline&width=300&height=800&small_header=false&adapt_container_width=false&hide_cover=false&show_facepile=false&appId"
-                width="300" height="800" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                width="300" height="800" style="border:none;overflow:hidden"></iframe>
         </div>
         <div id="noticias">
             <div id="notSlider">
+                <h2 id="titleCars" class="text-center">NEW CARS INCOMMING</h2>
                 <div id="myCarousel" class="carousel slide" data-ride="carousel">
                     <!-- Indicators -->
                     <ol class="carousel-indicators">
@@ -118,11 +120,11 @@
             <div class="row">
                 <div class="col col-sm-6">
                     <a href="news1.html">
-                        <h3 id="t1" class="notTitle">COMMUNITY TRAININGS</h3>
+                        <h3 class="notTitle">COMMUNITY TRAININGS</h3>
                         <h5 class="date">Thu Apr 13 2017</h5>
-                        <div id="not2" class="not img-rounded">
+                        <div class="not img-rounded">
                             <img src="img/not/training.png" alt="trainingIMG">
-                            <p id="d1" class="desc">We want to try our best to cater to players of all skill levels, as well as provide Custom Training
+                            <p class="desc">We want to try our best to cater to players of all skill levels, as well as provide Custom Training
                                 sequences and Steam Workshop maps that help teach our players a broad range of skills and
                                 mechanics!
                             </p>
@@ -131,11 +133,11 @@
                 </div>
                 <div class="col col-sm-6">
                     <a href="news2.html">
-                        <h3 id="t1" class="notTitle">NEW GAMEMODE - DROPSHOT</h3>
+                        <h3 class="notTitle">NEW GAMEMODE - DROPSHOT</h3>
                         <h5 class="date">Mon Mar 13 2017</h5>
-                        <div id="not2" class="not img-rounded">
+                        <div class="not img-rounded">
                             <img src="img/not/dropshot.jpg" alt="dropshotIMG">
-                            <p id="d1" class="desc">Another FREE mode is coming to Rocket League later this month! Dropshot is a brand new take on
+                            <p class="desc">Another FREE mode is coming to Rocket League later this month! Dropshot is a brand new take on
                                 Rocket League gameplay as we introduce dynamic breakable floors and an electrified ball!</p>
                         </div>
                     </a>
@@ -144,22 +146,22 @@
             <div class="row">
                 <div class="col col-sm-6">
                     <a href="#">
-                        <h3 id="t1" class="notTitle">TOURNAMENT IN MALLORCA</h3>
+                        <h3 class="notTitle">TOURNAMENT IN MALLORCA</h3>
                         <h5 class="date">Mon May 15 2017</h5>
-                        <div id="not2" class="not img-rounded">
+                        <div class="not img-rounded">
                             <img src="img/not/tournament.jpg" alt="newImg">
-                            <p id="d1" class="desc">A new tournament will be the next Monday 15 at the event of Mallorca Games. There will be matches
+                            <p class="desc">A new tournament will be the next Monday 15 at the event of Mallorca Games. There will be matches
                                 of 1vs1, 2vs2, or 3vs3. Be ready for that!</p>
                         </div>
                     </a>
                 </div>
                 <div class="col col-sm-6">
                     <a href="#">
-                        <h3 id="t1" class="notTitle">RLCS SEASON 3 CHAMPIONSHIP</h3>
+                        <h3 class="notTitle">RLCS SEASON 3 CHAMPIONSHIP</h3>
                         <h5 class="date">Mon May 08 2017</h5>
-                        <div id="not2" class="not img-rounded">
+                        <div class="not img-rounded">
                             <img src="img/not/championship.jpg" alt="newImg">
-                            <p id="d1" class="desc">We want to try our best to cater to players of all skill levels, as well as provide Custom Training
+                            <p class="desc">We want to try our best to cater to players of all skill levels, as well as provide Custom Training
                                 sequences and Steam Workshop maps that help teach our players a broad range of skills and
                                 mechanics!
                             </p>
@@ -170,7 +172,7 @@
             <div id="notCargar">
 
             </div>
-            <button type="button" id="btnLoad" class="btn btn-info btn-block"><span id="arrow1" class="glyphicon glyphicon-chevron-down"></span>MORE RESULTS<span id="arrow2"class="glyphicon glyphicon-chevron-down"></span></button>
+            <button type="button" id="btnLoad" class="btn btn-info btn-block">CHARGE MORE NEWS</button>
         </div>
 
 
@@ -192,13 +194,10 @@
             <li id="gg">
                 <a href="#"><img src="img/icons/google.png" alt="gg logo" /></a>
             </li>
-
-            <div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com"
-                    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"
-                    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
-
-
         </ul>
+        <div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com"
+                title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0"
+                target="_blank">CC 3.0 BY</a></div>
     </div>
 
 

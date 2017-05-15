@@ -2,6 +2,9 @@ var fichLoaded = 0;
 var fichName = ["1.json", "2.json", "3.json"];
 var alturaJumb;
 var alturaBar;
+var intervalPub;
+var imgPub = ["img/ads/1h.jpg", "img/ads/2h.jpg", "img/ads/3h.jpg"];
+var inxPub = 1;
 
 /*Al cargar la pagina*/
 $(document).ready(function () {
@@ -25,7 +28,8 @@ $(document).ready(function () {
 
 
     alturaJumb = $('#jumb').outerHeight();
-    alturaBar = $('#mybar').outerHeight()+20;
+    alturaBar = $('#mybar').outerHeight() + 20;
+
     $(window).scroll(function () {
         if ($(window).scrollTop() + $(window).height() == $(document).height()) {
             cargarNoticias();
@@ -39,6 +43,19 @@ $(document).ready(function () {
         }
 
     });
+
+    intervalPub = setInterval(function () {
+
+        if ($(window).width() > 750) {
+            $("#pubV").stop(true, true).fadeOut(200);
+            $("#pubV").attr("src", imgPub[inxPub % imgPub.length]);
+            $("#pubV").stop(true, true).fadeIn(200);
+            inxPub++;
+        } else {
+            $("#pubV").stop(true, true).hide();
+        }
+
+    }, 15000);
 });
 
 
@@ -77,7 +94,7 @@ function cargarNoticias() {
     if ((fichLoaded < fichName.length) && (cargarFichero(fichName[fichLoaded]))) {
         fichLoaded++;
     } else {
-        alert("No hay más noticias");
+        $("#btnLoad").html("NO MORE NEWS AVAILABLE");
     }
 }
 
