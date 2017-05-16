@@ -27,7 +27,7 @@ h1 {
     font-size:  6vw !important;
     display: none;
     color: white !important;
-    text-shadow: rgba(255,255,255,0.5) 0px 3px 3px;
+    text-shadow: greenyellow 0px 3px 3px;
 }
 
 ul {
@@ -226,16 +226,6 @@ a:hover {
 #btnLoad {
     width: calc(100% - 2em);
     margin: auto;
-}
-
-#arrow1{
-    float:left;
-    margin-left: 5%;
-}
-
-#arrow2{
-    float:right;
-    margin-right: 5%;
 }
 
 .footer {

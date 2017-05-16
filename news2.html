@@ -11,8 +11,10 @@
     <link rel="icon" href="img/icons/ico.png" type="image/x-icon" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/jsNot.js"></script>
     <link rel="stylesheet" href="css/styleNot.css">
     <link href="https://fonts.googleapis.com/css?family=Aldrich" rel="stylesheet">
+    <link rel="alternate" type="application/rss+xml" title="Rocket League News" href="rss/rss.xml">
 </head>
 
 <body>
@@ -30,7 +32,7 @@
         <h1>ROCKET LEAGUE NEWS</h1>
     </div>
 
-    <nav class="navbar navbar-inverse">
+    <nav id="mybar" class="navbar navbar-inverse">
         <div class="container-fluid">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -48,11 +50,11 @@
                     <li class="dropdown">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#">Patches<span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">Patch 1.34</a></li>
-                            <li><a href="#">Patch 1.33</a></li>
-                            <li><a href="#">Patch 1.32</a></li>
-                            <li><a href="#">Patch 1.31</a></li>
-                            <li><a href="#">Patch 1.30</a></li>
+                            <li><a href="#" class="dr">Patch 1.34</a></li>
+                            <li><a href="#" class="dr">Patch 1.33</a></li>
+                            <li><a href="#" class="dr">Patch 1.32</a></li>
+                            <li><a href="#" class="dr">Patch 1.31</a></li>
+                            <li><a href="#" class="dr">Patch 1.30</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -72,10 +74,18 @@
 
     <div id="mainC">
         <div id="publicidad">
-            <img id="pubV" src="img/ads/mc.jpg" alt="pub ver img">
-            <img id="pubH" src="img/ads/boatH.png" alt="pub hor img">
+            <a href="publ.html"><img id="pubV" src="img/ads/1h.jpg" alt="pub ver img"></a>
+            <a href="publ.html">
+                <picture>
+                    <source srcset="img/ads/1m.png" media="(min-width: 650px)">
+                    <source srcset="img/ads/2m.png" media="(min-width: 500px)">
+                    <source srcset="img/ads/3m.png" media="(min-width: 400px)">
+                    
+                    <img id="pubH" src="img/ads/4m.png" alt="pub hor img">
+                </picture>
+            </a>
             <iframe id="fbTime" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FRocketLeague%2F&tabs=timeline&width=300&height=800&small_header=false&adapt_container_width=false&hide_cover=false&show_facepile=false&appId"
-                width="300" height="800" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                width="300" height="800" style="border:none;overflow:hidden"></iframe>
         </div>
         <div id="noticias">
             <h3 class="title">NEW GAMEMODE - DROPSHOT</h3>
