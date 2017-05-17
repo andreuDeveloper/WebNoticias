@@ -1,19 +1,10 @@
 body, html {
     margin: 0;
     padding: 0;
-    height: 100%;
 }
 
 body {
-    background: rgba(1,1,1,1);
-    background: -moz-linear-gradient(left, rgba(1,1,1,1) 0%, rgba(3,4,8,1) 100%);
-    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(1,1,1,1)), color-stop(100%, rgba(3,4,8,1)));
-    background: -webkit-linear-gradient(left, rgba(1,1,1,1) 0%, rgba(3,4,8,1) 100%);
-    background: -o-linear-gradient(left, rgba(1,1,1,1) 0%, rgba(3,4,8,1) 100%);
-    background: -ms-linear-gradient(left, rgba(1,1,1,1) 0%, rgba(3,4,8,1) 100%);
-    background: linear-gradient(to right, rgba(1,1,1,1) 0%, rgba(3,4,8,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#010101', endColorstr='#030408', GradientType=1 );
-
+    background: url("../img/back.jpg") center center no-repeat fixed;
     font-family: 'Aldrich', sans-serif;
 }
 
@@ -25,7 +16,6 @@ body {
 
 h1 {
     font-size:  6vw !important;
-    display: none;
     color: white !important;
     text-shadow: rgba(255,255,255,0.5) 0px 3px 3px;
 }
@@ -106,12 +96,19 @@ a:hover {
     /*background: red;*/
     position: relative;
     width: calc(100% - 300px - 20px);
-    padding-left: 10%;
-    padding-right: 10%; 
+    padding-left: 7.5%;
+    padding-right: 7.5%; 
 }
 
-#noticias div {
+#c {
+    width: 100%;
     position: relative;
+    background: rgba(34,34,34,0.5);
+    border: 2px greenyellow solid;
+    border-radius: 5px;
+}
+
+#c2 {
     width: 100%;
 }
 
@@ -133,6 +130,13 @@ a:hover {
     margin-right: 20px;
 }
 
+p {
+    color: white;
+    font-size: 1.1em;
+    line-height: 160%;
+    margin: 20px 0 20px 0;
+}
+
 #pubV {
     display: block;
     width: 100%;
@@ -140,6 +144,12 @@ a:hover {
 
 #pubH{
     display: none;
+}
+
+.if {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: solid 1px greenyellow; 
 }
 
 .footer {
@@ -166,10 +176,26 @@ a:hover {
 
 #fbTime {
     margin-top: 20px;
-    border: 0px;
-    opacity: 1 !important;
+    border: 1px greenyellow;
+    border-radius: 5px;
 }
 
+a {
+    color: yellowgreen;
+}
+
+#ofSite:hover {
+    color: yellow;
+}
+
+#ofSite {
+    font-size: 1.3em;
+}
+
+.imgN {
+    border: 1px solid greenyellow;
+    border-radius: 5px;
+}
 
 
 
@@ -195,6 +221,20 @@ VERTICAL
         position: static;
         margin:0;
         margin-bottom: 20px;
+    }
+
+    #c {
+        border: none;
+        background: none;
+    }    
+
+    .title {
+        font-size: 5vw;
+    }
+
+    .date {
+        font-size: 3vw;
+        color: white;
     }
 
     #fbTime {
