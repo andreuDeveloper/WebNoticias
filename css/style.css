@@ -33,7 +33,6 @@ ul {
 }
 
 .listaNormal li {
-    list-style-type: none;
     display: inline-block;
     width: 24%;
 }
@@ -221,16 +220,35 @@ a:hover {
     margin: auto;
 }
 
+
+#fbTime {
+    margin-top: 20px;
+    border: 0px;
+}
+
 .footer {
     float: left;
-    padding: 0;
-    margin: 0;
+    margin: 20px 0 0 0;
+    padding: 20px;
     width: 100%;
-    background: blueviolet;
+    background: #222222;
+    color: white;
     text-align: center;
 }
 
-.footer li {
+.about{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.about li{
+  padding-left: 1em; 
+  line-height: 160%;
+}
+
+
+.icons li {
     display: inline-block;
     list-style-type: none;
     transform: scale(0.7);
@@ -238,17 +256,10 @@ a:hover {
     padding: 1%;
 }
 
-.footer li:hover{
+.icons li:hover{
     transform: scale(0.9);
     opacity: 1;
 }
-
-#fbTime {
-    margin-top: 20px;
-    border: 0px;
-}
-
-
 
 
 
