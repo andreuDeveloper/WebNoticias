@@ -10,7 +10,7 @@ VISUALIZACIÓ DESDE RAWGIT
 https://rawgit.com/SOSandreu1095/WebNoticias/master/index.html
 
 
-OBJETIU FINAL
+OBJECTIU FINAL
 --------------
 Realitzar una aplicació web de notícies que, en fer scroll fins abaix, recarregui més notícies amb html, jQuery i Bootstrap.
 
@@ -19,8 +19,10 @@ Especificacions del client:
 -------------------------
 
 * La maquetació (layer design) ha de deixar 300 px d'espai a la dreta de la pantalla per publicitat si la pantalla és suficientment ample. Tot altre diseny és lliure. **REALITZAT** 
-* Per dispositius mòbils, la publicitat anirá fixada a la part inferior o bé només es mostrará a la part superior (i desapareixerà en fer scroll) amb un alt de 90px. Pots triar l'opció. Tot altre diseny és lliure. **REALITZAT**
+* Per dispositius mòbils, la publicitat anirá fixada a la part inferior o bé només es mostrará a la part superior (i desapareixerà en fer scroll) amb un alt de 90px. Pots triar l'opció. Tot altre diseny és lliure. **REALITZAT** (En el meu cas la publicitat es trobará a la part superior per dispositius mòbils)
 * Les dades són: títol (entorn a 8 paraules), imgbig (url al json, imatge a la carpeta), imgmid (url al json, imatge a la carpeta), descripció (mínim de 300 caràcters), data i hora (datetime). **REALITZAT**
+
+** _Important** Les imatges de les notícies no tenen distints tamanys, els he reduït molt el tamany i a més a més estan optimitzats per tinypng. La resolució es de 720 i no superán dit tamany evitant que es pixeli_
 * Totes les notícies han de tenir el mateix format i mostrar les dades especificades de forma elegant a tot dispositiu. **REALITZAT**
 
 
@@ -48,6 +50,8 @@ MODIFICACIONS ADICIONALS
 -------------------------
 * Timelapse de facebook a la dreta de la web a la versió horitzontal.
 * Footer abaix de la web
-* Efectes en hover i pulsasions.
+* Efectes de:
+ * Hovers: Aparició de descripcions, borders, ampliacions, opacitats y més
+ * Dinamisme: La part del menú es troba fixa damunt de la pantalla y torna al seu estat inicial depenguent de la posició del scroll
 * La publicitat es va cambiant cada cert temps.
-* La publicitat de la versió vertical va cambiant si no cap a l'amplada de la finestra.
+* Com no he realitzat la imgBig per carregar un o l'altre segons la amplada, la publicitat de la versió vertical va cambiant si no cap a l'amplada de la finestra, i així donc per aplicat aquell punt, lo que a un altre banda.
