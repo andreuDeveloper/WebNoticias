@@ -1,60 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<rss version="2.0">
-
-<noticias>
-    <!--Noticia 1-->
-    <noticia>
-        <titulo>COMMUNITY TRAININGS</titulo>
-        <desc>We want to try our best to cater to players of all skill levels, as well as provide Custom Training
+<?xml version="1.0" encoding="UTF-8" ?><rss version="2.0"><noticias><noticia><titulo>COMMUNITY TRAININGS</titulo><desc>We want to try our best to cater to players of all skill levels, as well as provide Custom Training
                                 sequences and Steam Workshop maps that help teach our players a broad range of skills and
-                                mechanics!</desc>
-        <img>
-            <imgP></imgP>
-            <imgG></imgG>
-        </img>
-        <pubDate>Thu Apr 13 2017</pubDate>
-        <link>../news1.html</link>
-    </noticia>
-    
-    <!--Noticia 2-->
-    <noticia>
-        <titulo>NEW GAMEMODE - DROPSHOT</titulo>
-        <desc>Another FREE mode is coming to Rocket League later this month! Dropshot is a brand new take on
-                                Rocket League gameplay as we introduce dynamic breakable floors and an electrified ball!</desc>
-        <img>
-            <imgP></imgP>
-            <imgG></imgG>
-        </img>
-        <pubDate>Mon Mar 13 2017</pubDate>
-        <link>../news2.html</link>
-    </noticia>
-
-    <!--Noticia 3-->
-    <noticia>
-        <titulo>TOURNAMENT IN MALLORCA</titulo>
-        <desc>A new tournament will be the next Monday 15 at the event of Mallorca Games. There will be matches
-                                of 1vs1, 2vs2, or 3vs3. Be ready for that!</desc>
-        <img>
-            <imgP></imgP>
-            <imgG></imgG>
-        </img>
-        <pubDate>Mon May 15 2017</pubDate>
-        <link></link>
-    </noticia>
-
-    <!--Noticia 4-->
-    <noticia>
-        <titulo>RLCS SEASON 3 CHAMPIONSHIP</titulo>
-        <desc>We want to try our best to cater to players of all skill levels, as well as provide Custom Training
+                                mechanics!</desc><img><imgP></imgP><imgG></imgG></img><pubDate>Thu Apr 13 2017</pubDate><link>../news1.html</link></noticia><noticia><titulo>NEW GAMEMODE - DROPSHOT</titulo><desc>Another FREE mode is coming to Rocket League later this month! Dropshot is a brand new take on
+                                Rocket League gameplay as we introduce dynamic breakable floors and an electrified ball!</desc><img><imgP></imgP><imgG></imgG></img><pubDate>Mon Mar 13 2017</pubDate><link>../news2.html</link></noticia><noticia><titulo>TOURNAMENT IN MALLORCA</titulo><desc>A new tournament will be the next Monday 15 at the event of Mallorca Games. There will be matches
+                                of 1vs1, 2vs2, or 3vs3. Be ready for that!</desc><img><imgP></imgP><imgG></imgG></img><pubDate>Mon May 15 2017</pubDate><link></link></noticia><noticia><titulo>RLCS SEASON 3 CHAMPIONSHIP</titulo><desc>We want to try our best to cater to players of all skill levels, as well as provide Custom Training
                                 sequences and Steam Workshop maps that help teach our players a broad range of skills and
-                                mechanics!</desc>
-        <img>
-            <imgP></imgP>
-            <imgG></imgG>
-        </img>
-        <pubDate>Mon May 08 2017</pubDate>
-        <link></link>
-    </noticia>
-</noticias>
-
-</rss>
+                                mechanics!</desc><img><imgP></imgP><imgG></imgG></img><pubDate>Mon May 08 2017</pubDate><link></link></noticia></noticias></rss>
