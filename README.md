@@ -22,7 +22,7 @@ Especificacions del client:
 * Per dispositius mòbils, la publicitat anirá fixada a la part inferior o bé només es mostrará a la part superior (i desapareixerà en fer scroll) amb un alt de 90px. Pots triar l'opció. Tot altre diseny és lliure. **REALITZAT** (En el meu cas la publicitat es trobará a la part superior per dispositius mòbils)
 * Les dades són: títol (entorn a 8 paraules), imgbig (url al json, imatge a la carpeta), imgmid (url al json, imatge a la carpeta), descripció (mínim de 300 caràcters), data i hora (datetime). **REALITZAT**
 
-** _Important** Les imatges de les notícies no tenen distints tamanys, els he reduït molt el tamany i a més a més estan optimitzats per tinypng. La resolució es de 720 i no superán dit tamany evitant que es pixeli_
+** _Important ** Les imatges de les notícies no tenen distints tamanys, les he reduït molt i a més a més estan optimitzats per tinypng. Les resolució són de 720 i no superán dit tamany evitant que es pixeli _
 * Totes les notícies han de tenir el mateix format i mostrar les dades especificades de forma elegant a tot dispositiu. **REALITZAT**
 
 
