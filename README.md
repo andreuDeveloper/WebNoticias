@@ -48,5 +48,6 @@ MODIFICACIONS ADICIONALS
 -------------------------
 * Timelapse de facebook a la dreta de la web a la versió horitzontal.
 * Footer abaix de la web
-* Efectes en hover i pulsasions
-* La publicitat es va cambiant cada cert temps
+* Efectes en hover i pulsasions.
+* La publicitat es va cambiant cada cert temps.
+* La publicitat de la versió vertical va cambiant si no cap a l'amplada de la finestra.
