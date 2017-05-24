@@ -4,7 +4,7 @@
 * Lenguaje de Marcas HTML
 * DAM1
 
-VISUALIZACIÓ DESDE RAWGIT
+VISUALITZACIÓ DESDE RAWGIT
 ==========================
 
 https://rawgit.com/SOSandreu1095/WebNoticias/master/index.html
