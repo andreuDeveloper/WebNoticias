@@ -1,7 +1,8 @@
 # WebNoticias
 
-Andreu Juan Ferrá
-DAM1
+* Andreu Juan Ferrá
+* Lenguaje de Marcas HTML
+* DAM1
 
 VISUALIZACIÓ DESDE RAWGIT
 ==========================
