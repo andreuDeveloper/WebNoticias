@@ -146,6 +146,11 @@ p {
     display: none;
 }
 
+a {
+    color: yellowgreen;
+}
+
+
 .if {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -154,24 +159,44 @@ p {
 
 .footer {
     float: left;
-    padding: 0;
-    margin: 0;
+    margin: 20px 0 0 0;
+    padding: 20px;
     width: 100%;
-    background: blueviolet;
+    background: #222222;
+    color: white;
     text-align: center;
 }
 
-.footer li {
-    display: inline-block;
-    list-style-type: none;
-    transform: scale(0.7);
-    opacity: 0.6;
-    padding: 1%;
+.about{
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
-.footer li:hover{
-    transform: scale(0.9);
+.about a {
+    color: white;
+}
+
+.about li{
+  padding-left: 1em; 
+  line-height: 160%;
+}
+
+
+.icons li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 1%;
+    transform: scale(0.6);
+    border: solid 1px #222222;
+    opacity: 0.6;
+}
+
+.icons li:hover{
+    transform: scale(0.7);
     opacity: 1;
+    border: solid 1px greenyellow;
+    border-radius: 50%;
 }
 
 #fbTime {
@@ -180,16 +205,13 @@ p {
     border-radius: 5px;
 }
 
-a {
-    color: yellowgreen;
-}
-
 #ofSite:hover {
     color: yellow;
 }
 
 #ofSite {
     font-size: 1.3em;
+    line-height: 200%;
 }
 
 .imgN {
@@ -248,5 +270,9 @@ VERTICAL
     #pubH{
         display: block;
         margin: auto;
+    }
+
+    #ofSite {
+        font-size: 1.3em;
     }
 }

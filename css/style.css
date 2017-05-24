@@ -251,14 +251,17 @@ a:hover {
 .icons li {
     display: inline-block;
     list-style-type: none;
-    transform: scale(0.7);
-    opacity: 0.6;
     padding: 1%;
+    transform: scale(0.6);
+    border: solid 1px #222222;
+    opacity: 0.6;
 }
 
 .icons li:hover{
-    transform: scale(0.9);
+    transform: scale(0.7);
     opacity: 1;
+    border: solid 1px greenyellow;
+    border-radius: 50%;
 }
 
 
