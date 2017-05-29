@@ -1,60 +1,49 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
 
-<noticias>
+<channel>
+    <title>Rocket League News</title>
+    <link>https://rawgit.com/SOSandreu1095/WebNoticias/master/index.html</link>
+    <description>All the news of Rocket League here!</description>
+
+
     <!--Noticia 1-->
-    <noticia>
-        <titulo>COMMUNITY TRAININGS</titulo>
-        <desc>We want to try our best to cater to players of all skill levels, as well as provide Custom Training
+    <item>
+        <title>COMMUNITY TRAININGS</title>
+        <link>https://rawgit.com/SOSandreu1095/WebNoticias/master/news1.html</link>
+        <description>We want to try our best to cater to players of all skill levels, as well as provide Custom Training
                                 sequences and Steam Workshop maps that help teach our players a broad range of skills and
-                                mechanics!</desc>
-        <img>
-            <imgP></imgP>
-            <imgG></imgG>
-        </img>
-        <pubDate>Thu Apr 13 2017</pubDate>
-        <link>../news1.html</link>
-    </noticia>
+                                mechanics!</description>
+        <pubDate>Thu, 13 Apr 2017 00:00:00 GMT</pubDate>
+    </item>
     
     <!--Noticia 2-->
-    <noticia>
-        <titulo>NEW GAMEMODE - DROPSHOT</titulo>
-        <desc>Another FREE mode is coming to Rocket League later this month! Dropshot is a brand new take on
-                                Rocket League gameplay as we introduce dynamic breakable floors and an electrified ball!</desc>
-        <img>
-            <imgP></imgP>
-            <imgG></imgG>
-        </img>
-        <pubDate>Mon Mar 13 2017</pubDate>
-        <link>../news2.html</link>
-    </noticia>
+    <item>
+        <title>NEW GAMEMODE - DROPSHOT</title>
+        <link>https://rawgit.com/SOSandreu1095/WebNoticias/master/news2.html</link>
+        <description>Another FREE mode is coming to Rocket League later this month! Dropshot is a brand new take on
+                                Rocket League gameplay as we introduce dynamic breakable floors and an electrified ball!</description>
+        <pubDate>Mon, 13 Mar 2017 00:00:00 GMT</pubDate>
+    </item>
 
     <!--Noticia 3-->
-    <noticia>
-        <titulo>TOURNAMENT IN MALLORCA</titulo>
-        <desc>A new tournament will be the next Monday 15 at the event of Mallorca Games. There will be matches
-                                of 1vs1, 2vs2, or 3vs3. Be ready for that!</desc>
-        <img>
-            <imgP></imgP>
-            <imgG></imgG>
-        </img>
-        <pubDate>Mon May 15 2017</pubDate>
-        <link></link>
-    </noticia>
+    <item>
+        <title>TOURNAMENT IN MALLORCA</title>
+        <link>https://rawgit.com/SOSandreu1095/WebNoticias/master/news2.html</link>
+        <description>A new tournament will be the next Monday 15 at the event of Mallorca Games. There will be matches
+                                of 1vs1, 2vs2, or 3vs3. Be ready for that!</description>
+        <pubDate>Mon, 15 May 2017 00:00:00 GMT</pubDate>
+    </item>
 
     <!--Noticia 4-->
-    <noticia>
-        <titulo>RLCS SEASON 3 CHAMPIONSHIP</titulo>
-        <desc>We want to try our best to cater to players of all skill levels, as well as provide Custom Training
+    <item>
+        <title>RLCS SEASON 3 CHAMPIONSHIP</title>
+        <link>https://rawgit.com/SOSandreu1095/WebNoticias/master/news2.html</link>
+        <description>We want to try our best to cater to players of all skill levels, as well as provide Custom Training
                                 sequences and Steam Workshop maps that help teach our players a broad range of skills and
-                                mechanics!</desc>
-        <img>
-            <imgP></imgP>
-            <imgG></imgG>
-        </img>
-        <pubDate>Mon May 08 2017</pubDate>
-        <link></link>
-    </noticia>
-</noticias>
+                                mechanics!</description>
+        <pubDate>Mon, 08 May 2017 00:00:00 GMT</pubDate>
+    </item>
+</channel>
 
 </rss>
